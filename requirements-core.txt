@@ -1,0 +1,36 @@
+# Dependencias CORE del Proyecto - Analisis EPH
+# Sin dependencias geoespaciales (mas facil de instalar en Windows)
+
+# CORE DATA SCIENCE
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# VISUALIZACION
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# MACHINE LEARNING
+scikit-learn>=1.3.0
+
+# JUPYTER & NOTEBOOKS
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.23.0
+ipywidgets>=8.0.0
+
+# UTILIDADES
+requests>=2.31.0
+tqdm>=4.65.0
+
+# FORMATO Y EXPORTACION
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+python-dateutil>=2.8.0
+
+# COMPRESION Y ARCHIVOS
+pyarrow>=12.0.0
+
+# ESTADISTICA AVANZADA
+statsmodels>=0.14.0

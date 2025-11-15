@@ -1,0 +1,143 @@
+# .gitignore - Análisis EPH
+
+# ============================================================================
+# DATOS
+# ============================================================================
+# Datos crudos descargados
+datos/raw/*.zip
+datos/raw/*.txt
+datos/raw/*/
+
+# Datos procesados grandes
+datos/processed/*.parquet
+datos/processed/*.csv
+datos/processed/*.pkl
+
+# Mantener estructura de carpetas
+!datos/raw/.gitkeep
+!datos/processed/.gitkeep
+
+# ============================================================================
+# NOTEBOOKS
+# ============================================================================
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ============================================================================
+# ENTORNOS VIRTUALES
+# ============================================================================
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ============================================================================
+# IDEs Y EDITORES
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# SISTEMA OPERATIVO
+# ============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# RESULTADOS TEMPORALES
+# ============================================================================
+# Archivos temporales grandes
+resultados/graficos/*.png
+resultados/graficos/*.jpg
+resultados/graficos/*.html
+resultados/tablas/*.csv
+resultados/tablas/*.xlsx
+
+# Mantener estructura
+!resultados/graficos/.gitkeep
+!resultados/tablas/.gitkeep
+
+# ============================================================================
+# DOCUMENTACIÓN
+# ============================================================================
+# Informe en proceso
+informe/*.docx
+informe/*.pdf
+informe/~$*.docx
+
+# Mantener estructura
+!informe/.gitkeep
+
+# ============================================================================
+# LOGS Y CACHÉ
+# ============================================================================
+*.log
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================================================
+# ARCHIVOS DE CONFIGURACIÓN LOCAL
+# ============================================================================
+.env
+.env.local
+config.local.py
+secrets.json
