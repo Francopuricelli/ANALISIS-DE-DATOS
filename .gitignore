@@ -141,3 +141,4 @@ htmlcov/
 .env.local
 config.local.py
 secrets.json
+INFORME_EPH_2016-2025.md
